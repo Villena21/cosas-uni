@@ -1,5 +1,5 @@
-Su nombre es: Maria
-Sus apellidos son: de las mercedes santo grial juncos pardos
+Su nombre es: Maria de las mercedes
+Sus apellidos son: santo grial juncos pardos
 Su DNI es: 123456789Q
 Su numero de telefono es: 123456789
 Su correo electronico es: mariadelasmercedessantogrialjuncospardoss@gmail.com

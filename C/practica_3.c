@@ -2,8 +2,8 @@
 
 int main(){
     
-    char nombre[51] = "Maria";
-    char Apellidos[99] = "de las mercedes santo grial juncos pardos";
+    char nombre[51] = "Maria de las mercedes";
+    char Apellidos[99] = "santo grial juncos pardos";
     char DNI[20] = "123456789Q";
     int numero;
     numero = 123456789;
