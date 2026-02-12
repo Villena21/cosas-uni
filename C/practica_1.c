@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    printf("Práctica Nº1 de IAC");
+    printf("Practica No1 de IAC");
     return 0;
 }

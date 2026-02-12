@@ -10,14 +10,6 @@ int main(){
     char mail[150] = "mariadelasmercedessantogrialjuncospardoss@gmail.com";
     char ciudad [9] = "Madrid";
     char provincia [9] = "Madrid";
-    
-    printf("El nombre es: %s\n", nombre);
-    printf("Sus apellidos son: %s\n", Apellidos);
-    printf("Su DNI es: %s\n", DNI);
-    printf("Su numero de telefono es: %d\n", numero);
-    printf("Su correo electronico es: %s\n", mail);
-    printf("Su ciudad es: %s\n", ciudad);
-    printf("Su provincia es: %s\n", provincia);
 
     FILE* DEMO;
     DEMO = fopen("Demo.txt", "w+");
@@ -30,6 +22,20 @@ int main(){
     fprintf(DEMO, "Su provincia es: %s\n", provincia);
     fclose(DEMO);
 
+    fscanf(DEMO, "%s", nombre);
+    printf("Su nombre es: %s\n", nombre);
+    fscanf(DEMO, "%s", Apellidos);
+    printf("Sus apellidos son: %s\n", Apellidos);
+    fscanf(DEMO, "%s", DNI);
+    printf("Su DNI es: %s\n", DNI);
+    fscanf(DEMO, "%d", numero);
+    printf("Su numero de telefono es: %d\n", numero);
+    fscanf(DEMO, "%s", mail);
+    printf("Su correo electronico es: %s\n", mail);
+    fscanf(DEMO, "%s", ciudad);
+    printf("Su ciudad es: %s\n", ciudad);
+    fscanf(DEMO, "%s", provincia);
+    printf("Su provincia es: %s\n", provincia);
     return 0;
     
     
