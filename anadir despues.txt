@@ -1,3 +1,0 @@
-rename("Demo.txt", "Demo_E.txt");   
-
-remove("Demo.txt"); 
