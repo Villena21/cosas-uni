@@ -14,7 +14,7 @@ while b == 0:
         b=float(input('Inserte valor de b: '))
         a=a
 
-print(a,'x+',b)
+print(a,'x +',b)
 
 x = -b/a
 
