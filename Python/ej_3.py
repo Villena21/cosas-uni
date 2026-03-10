@@ -2,8 +2,8 @@ numero_1 = input('Escriba su primer numero: ')
 numero_2 = input('Escriba su segundo numero: ')
 
 if numero_1 < numero_2:
-    print(numero_1,'es menor que',numero_2)
+    print('{0} es menor que {1}'.format(numero_1,numero_2))
 elif numero_1 == numero_2:
-    print(numero_1,'y',numero_2,'son iguales')
+    print('{0} es igual a {1}'.format(numero_1,numero_2))
 else:
-    print(numero_2,'es menor que', numero_1)
+    print('{1} es menor que {0}'.format(numero_1,numero_2))
