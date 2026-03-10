@@ -1,6 +1,6 @@
 letra = input('Dame una letra minuscula: ')
 
-letra
+letra=letra.upper
 
 if letra <= 'k':
     print('primeras letras del abecedario')
