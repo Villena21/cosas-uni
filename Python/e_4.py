@@ -20,3 +20,28 @@ if(resto !=0):
             print('necesito {0} billetes de 50'.format (billetes_50))
             resto = resto % 50
             print('restan {0} euros'.format(resto))
+            if(resto !=0):
+                billetes_20 = resto // 20 
+                print('necesito {0} billetes de 20'.format (billetes_20))
+                resto = resto % 20
+                print('restan {0} euros'.format(resto))
+                if(resto !=0):
+                    billetes_10 = resto // 10 
+                    print('necesito {0} billetes de 10'.format (billetes_10))
+                    resto = resto % 10
+                    print('restan {0} euros'.format(resto))
+                    if(resto !=0):
+                        billetes_5 = resto // 5 
+                        print('necesito {0} billetes de 5'.format (billetes_5))
+                        resto = resto % 5
+                        print('restan {0} euros'.format(resto))
+                        if(resto !=0):
+                            monedas_2 = resto // 2 
+                            print('necesito {0} monedas de 2'.format (monedas_2))
+                            resto = resto % 2
+                            print('restan {0} euros'.format(resto))
+                            if(resto !=0):
+                                monedas_1 = resto // 1 
+                                print('necesito {0} monedas de 1'.format (monedas_1))
+                                resto = resto % 1
+                                print('restan {0} euros'.format(resto))
