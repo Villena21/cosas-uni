@@ -7,3 +7,5 @@ elif numero_1 == numero_2:
     print('{0} es igual a {1}'.format(numero_1,numero_2))
 else:
     print('{1} es menor que {0}'.format(numero_1,numero_2))
+while True:
+    print("nigger")
