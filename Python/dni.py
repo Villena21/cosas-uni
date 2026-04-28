@@ -1,4 +1,6 @@
-dni = int(input('Introduce dni: '))
-letra = "TRWAGMFPDBNJSQVHLKE"
-i = dni % 23
-print(letra[i])
+def pide_dni():
+    return int(input("introduce tu dni sin letra: "))
+
+def letra():
+    letras_DNI = ""
+    return letras_DNI(num % 23)
