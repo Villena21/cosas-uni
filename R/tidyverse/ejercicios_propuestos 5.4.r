@@ -83,15 +83,15 @@ kable(tabla_dispersion)
 #j
 
 desviacion <- sd(df$peso, na.rm = TRUE)
-desviacion<-
-varianza <- desviacion ** desviacion
+varianza <- desviacion ^ 2
 
 dfj <- data.frame(
     desviacion = desviacion,
     varianza = varianza
 )
 
-kable(dfj)
+print(dfj)
+
 
 #k
 
