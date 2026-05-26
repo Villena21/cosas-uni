@@ -10,10 +10,13 @@ A
 AAAAAA
 finn
 2
-ola
-wiwiwiwiwiw
-oihafhufsahu
-oaola
+Secuencia
+Longitud
+Adeninas
+Guaninas
+Timinas
+Citosinas
+<<<<<<< HEAD
 Secuencia
 Longitud
 Adeninas
@@ -26,33 +29,6 @@ Adeninas
 Guaninas
 Timinas
 Citosinas
-Secuencia
-Longitud
-Adeninas
-Guaninas
-Timinas
-Citosinas
-Secuencia
-Longitud
-Adeninas
-Guaninas
-Timinas
-Citosinas
-Secuencia
-Longitud
-Adeninas
-Guaninas
-Timinas
-Citosinas
-Secuencia
-Longitud
-Adeninas
-Guaninas
-Timinas
-Citosinas
-Secuencia
-Longitud
-Adeninas
-Guaninas
-Timinas
-Citosinas
+=======
+me cago en todo que dolor
+>>>>>>> b36a4e4d694c76dd6f08a5d45bf9a7e098d637d6

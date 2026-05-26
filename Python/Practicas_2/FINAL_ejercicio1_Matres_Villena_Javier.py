@@ -79,18 +79,18 @@ elif menu == 2:
     try:
         ruta = os.path.join(os.getcwd(), "analisis_genetico.txt")
         fichero = open(ruta, "a")
+        while True:
+            frase = input()
 
-        fichero.write("Secuencia\n")
-        fichero.write("Longitud\n")
-        fichero.write("Adeninas\n")
-        fichero.write("Guaninas\n")
-        fichero.write("Timinas\n")
-        fichero.write("Citosinas\n")
-        fichero.close
+            if frase.upper() == 'FIN':
+                break
+            fichero.write(frase + '\n')
+
+        fichero.close()
 
     except FileNotFoundError:
         print('El archivo no se ha encontrado')
-else:
+elif menu == 3:
     ruta = os.path.join(os.getcwd(),"analisis_genetico.txt")
     fichero = open(ruta, 'r')
 

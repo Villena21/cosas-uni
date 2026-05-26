@@ -10,9 +10,10 @@ ggplot(df, aes(x = Horas, y = Suspensos)) +
     geom_point(col = "red") +
     labs(title = "Diagrama de dispersión", x = "Horas de estudio", y = "Asignaturas suspensas")
 
-recta_y_x <- lm(Suspensos ~ Horas, df) 
-tidy(recta_y_x) |> kable()
-recta_y_x$coefficients[["Horas"]]
+recta_suspensos_horas <- lm(Suspensos ~ Horas, df)
+tidy(recta_suspensos_horas) |> kable()
+
+recta_suspensos_horas$coefficients[["Horas"]]
 
 ggplot(df, aes(x = Horas, y = Suspensos)) +
     geom_point(col = "red") +

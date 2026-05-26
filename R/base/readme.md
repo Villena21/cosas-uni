@@ -1,0 +1,1 @@
+Aqui esta solo hecho con base, hay algunas librerias que quieras o no hay que usarlas para caluclar apuntamiento, moda etc
