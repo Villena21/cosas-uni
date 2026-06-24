@@ -33,7 +33,7 @@ def porcentaje_aminoacidos_basicos(lista_proteinas):
 
         p_t = p_k + p_r
 
-        print('La secuencia es: {0}, cuyo porcentaje de aminoacidos basicos es: {1}%'.format(i, p_t))
+        print('La secuencia es: {0}, cuyo porcentaje de aminoacidos basicos es: {1:4.2f}%'.format(i, p_t))
 
 
 def tiene_senal_nuclear(lista_proteinas):
